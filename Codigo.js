@@ -1,8 +1,12 @@
+palabras = ["perro","gato","pez"];
+selector = parseInt(Math.random()*3);
 
-palabras = Array["perro","gato","pez"];
-selecctor = Math.random()*3;
-document.write("Hola");
+palabraSeleccionada = palabras[selector];
+document.write("La palabra es "+palabraSeleccionada);
 
-
+function Pulsar(variable){
+    document.getElementById(variable);
+    document.write("La palabra es "+variable);
+}
 
 
